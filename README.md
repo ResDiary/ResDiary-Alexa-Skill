@@ -7,7 +7,7 @@ Example utterances:
 * Alexa, open ResDiary
   * Where should we eat?
 
-## AWS CLI setup
+## AWS CLI setup
 
 To run the test suite or publish this application you need to install AWS's CLI tools, and configure them.
 
