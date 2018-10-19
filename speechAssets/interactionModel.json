@@ -1,0 +1,70 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "resdiary",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WhereToEat",
+                    "slots": [],
+                    "samples": [
+                        "where to eat",
+                        "where to eat please",
+                        "where can we eat",
+                        "where can we eat please",
+                        "where can I eat",
+                        "where can I eat please",
+                        "where we should eat",
+                        "where we should eat please",
+                        "where should we eat",
+                        "where should we eat please",
+                        "where I should eat",
+                        "where I should eat please",
+                        "where should I eat",
+                        "where should I eat please",
+                        "where to get some food",
+                        "where to get some food please",
+                        "where to get food",
+                        "where to get food please",
+                        "where to get dinner",
+                        "where to get dinner please",
+                        "where to get lunch",
+                        "where to get lunch please",
+                        "where to go for dinner",
+                        "where to go for dinner please",
+                        "where to go for lunch",
+                        "where to go for lunch please"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
