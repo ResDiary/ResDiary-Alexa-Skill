@@ -22,5 +22,6 @@ The region you use should be `eu-west-1`.
 * [AWS Console](https://eu-west-1.console.aws.amazon.com/console/home?region=eu-west-1) - Manage the AWS Lambda here
 * [Amazon Developer Console](https://developer.amazon.com/) - Manage the Alexa skill from here
 * [Alexa Skills Kit NPM Package Documentation](https://ask-sdk-for-nodejs.readthedocs.io/en/latest/)
+* [Designing for Voice](https://developer.amazon.com/designing-for-voice/)
 * [Alexa Development Blog](https://developer.amazon.com/blogs/alexa/)
 * [Alexa/Echo Usage Stats](https://voicebot.ai/amazon-echo-alexa-stats/)
