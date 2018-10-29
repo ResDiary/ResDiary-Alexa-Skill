@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "resdiary",
+            "invocationName": "res diary",
             "intents": [
                 {
                     "name": "AMAZON.FallbackIntent",

@@ -15,7 +15,8 @@
           "alreadySuggestedCuisines": [
             "Indian"
           ],
-          "alreadySuggestedRestaurants": []
+          "alreadySuggestedRestaurants": [],
+          "state": "CUISINESUGGESTION"
       }
     },
     "context": {

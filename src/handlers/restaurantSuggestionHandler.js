@@ -29,14 +29,14 @@ module.exports = {
                 (
                     handlerInput.requestEnvelope.request.intent.name === 'AMAZON.YesIntent'
                 ) &&
-                !sessionAttributes.lastSuggestedRestaurant
+                sessionAttributes.state === 'CUISINESUGGESTION'
             ) ||
             (
                 handlerInput.requestEnvelope.request.type === 'IntentRequest' &&
                 (
                     handlerInput.requestEnvelope.request.intent.name === 'AMAZON.NoIntent'
                 ) &&
-                sessionAttributes.lastSuggestedRestaurant !== ''
+                sessionAttributes.state === 'RESTAURANTSUGGESTION'
             )
         );
     },
@@ -61,6 +61,7 @@ module.exports = {
         // saves suggestion to session storage
         sessionAttributes.lastSuggestedRestaurant = randomRestaurant;
         sessionAttributes.alreadySuggestedRestaurants.push(randomRestaurant);
+        sessionAttributes.state = 'RESTAURANTSUGGESTION';
 
         // respond asking if the user is interested
         return handlerInput.responseBuilder

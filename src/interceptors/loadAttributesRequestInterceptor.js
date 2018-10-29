@@ -6,7 +6,6 @@ module.exports = {
         // Check if user is invoking the skill the first time and initialize preset values
         if (Object.keys(persistentAttributes).length === 0) {
             handlerInput.attributesManager.setPersistentAttributes({
-                state                  : 'INIT'
             });
         }
         if (Object.keys(sessionAttributes).length === 0) {
@@ -14,7 +13,8 @@ module.exports = {
                 alreadySuggestedCuisines            : [],
                 alreadySuggestedRestaurants         : [],
                 lastSuggestedCuisine                : '',
-                lastSuggestedRestaurant             : ''
+                lastSuggestedRestaurant             : '',
+                state                               : 'INIT'
             });
         }
     },

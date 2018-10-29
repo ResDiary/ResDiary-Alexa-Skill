@@ -29,8 +29,7 @@ module.exports = {
                 (
                     handlerInput.requestEnvelope.request.intent.name === 'AMAZON.NoIntent'
                 ) &&
-                sessionAttributes.lastSuggestedCuisine !== '' &&
-                !sessionAttributes.lastSuggestedRestaurant
+                sessionAttributes.state === 'CUISINESUGGESTION'
             )
         );
     },
@@ -57,6 +56,7 @@ module.exports = {
         sessionAttributes.alreadySuggestedRestaurants = [];
         sessionAttributes.lastSuggestedCuisine = randomCuisine;
         sessionAttributes.alreadySuggestedCuisines.push(randomCuisine);
+        sessionAttributes.state = 'CUISINESUGGESTION';
 
         // respond asking if the user is interested
         return handlerInput.responseBuilder

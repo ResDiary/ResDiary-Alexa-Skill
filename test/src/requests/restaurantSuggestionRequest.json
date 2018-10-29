@@ -12,7 +12,8 @@
         "alreadySuggestedCuisines": [
           "Pizza"
         ],
-        "alreadySuggestedRestaurants": []
+        "alreadySuggestedRestaurants": [],
+        "state": "CUISINESUGGESTION"
       },
       "user": {
         "userId": "amzn1.ask.account.123"

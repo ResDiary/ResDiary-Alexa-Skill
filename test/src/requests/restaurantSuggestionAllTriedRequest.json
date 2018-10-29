@@ -14,7 +14,8 @@
         ],
         "alreadySuggestedRestaurants": [
             "Chaakoo"
-        ]
+        ],
+        "state": "RESTAURANTSUGGESTION"
       },
       "user": {
         "userId": "amzn1.ask.account.123"

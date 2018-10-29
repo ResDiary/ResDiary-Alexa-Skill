@@ -11,7 +11,7 @@ module.exports = {
                 (
                     handlerInput.requestEnvelope.request.intent.name === 'AMAZON.YesIntent'
                 ) &&
-                sessionAttributes.lastSuggestedRestaurant !== ''
+                sessionAttributes.state === 'RESTAURANTSUGGESTION'
             )
         );
     },

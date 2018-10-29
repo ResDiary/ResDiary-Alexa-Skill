@@ -15,7 +15,8 @@
           "alreadySuggestedCuisines": [
             "Pizza"
           ],
-          "alreadySuggestedRestaurants": []
+          "alreadySuggestedRestaurants": [],
+          "state": "CUISINESUGGESTION"
       }
     },
     "context": {
