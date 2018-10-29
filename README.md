@@ -1,3 +1,5 @@
+Current status: Proof of Concept
+
 A skill for Amazon Alexa, which allows you to find restaurant of interest near you.
 
 Example utterances:
